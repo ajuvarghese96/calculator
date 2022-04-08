@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/calc.css">
+    <script src="/calc.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+
+            <h1 class="brand-text logo">CASIO</h1>
+
+            <p class="heading">" Technology for Life</p>
+        </div>
+        <div class="calculator">
+            <div class="logo">
+                <h5>CASIO</h5>
+            </div>
+            <div id="output">
+                <input type="text" id="screen">
+            </div>
+            <div id="inputs">
+                <table>
+                    <tr>
+                        <td><button type="submit" class="but" onclick="press(9)">9</button></td>
+                        <td> <button type="submit" class="but" onclick="press(8)">8</button></td>
+                        <td> <button type="submit" class="but" onclick="press(7)">7</button></td>
+                        <td><button type="submit" class="but" onclick="press('/')">/</button>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><button type="submit" class="but" onclick="press(4)">4</button></td>
+                        <td> <button type="submit" class="but" onclick="press(5)">5</button></td>
+                        <td> <button type="submit" class="but" onclick="press(6)">6</button></td>
+                        <td> <button type="submit" class="but" onclick="press('*')">x</button>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><button type="submit" class="but" onclick="press(1)">1</button></td>
+                        <td> <button type="submit" class="but" onclick="press(2)">2</button></td>
+                        <td><button type="submit" class="but" onclick="press(3)">3</button></td>
+                        <td><button type="submit" class="but" onclick="press('+')">+</button></td>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><button type="submit" class="but" onclick="press('%')">%</button></td>
+                        <td><button type="submit" class="but" onclick="press('.')">.</button></td>
+                        <td><button type="submit" class="but" onclick="press(0)">0</button></td>
+                        <td> <button type="submit" class="but" onclick="press('-')">-</button></td>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><button class=" but clear" onclick="del()">C</button></td>
+                        <td colspan="3"><button class="but equal" onclick="equalclick()">=</button></td>
+
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

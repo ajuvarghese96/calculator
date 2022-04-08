@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Oswald:wght@700&family=Poppins&display=swap');
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(circle, rgb(63, 111, 255) 0%, rgb(0, 42, 86) 100%);
+    position: absolute;
+}
+
+.title {
+    width: 250px;
+    height: 200px;
+    float: left;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.heading {
+    color: white;
+    font-size: 16px;
+
+
+
+}
+
+.calculator {
+    width: 350px;
+    height: 530px;
+    background: #3a5872;
+    margin-left: 40%;
+    margin-top: 7%;
+    box-shadow: 0px 5px 20px #000000;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 55px;
+    border-bottom-right-radius: 55px;
+    position: absolute;
+}
+
+#output {
+    height: 95px;
+}
+
+#screen {
+    width: 80%;
+    height: 45px;
+    margin: 25px;
+    pointer-events: none;
+    border: 1px solid rgb(142, 142, 142);
+    border-radius: 5px;
+    background: #b6d1c2;
+    text-align: right;
+    font-size: 22px;
+}
+
+.but {
+    width: 67px;
+    height: 60px;
+    background: #939ab4;
+    border: 1px solid #1a2f38;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 22px;
+
+    color: #fff;
+}
+.but:active{
+    transform: scale(0.95);
+   
+}
+#inputs {
+    margin-left: 25px;
+
+}
+
+.logo {
+    color: #acb4c1;
+    margin-left: 25px;
+    height: 20px;
+    font-family: 'Play', 'Russo One', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    word-spacing: 30px;
+}
+
+.clear {
+    background: #b64e5a;
+
+}
+
+.equal {
+    width: 211px;
+}
+
+.brand-text {
+    color: rgb(24, 24, 167);
+    font-size: 35px;
+    background: white;
+    width: 110px;
+    height: 40px;
+    padding: 25px;
+    margin-left: 6px;
+    transform: scale(1);
+
+
+}
